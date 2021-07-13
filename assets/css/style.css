@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+body {
+    font-family: 'Playfair Display SC', serif;
+  
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 2%;
+}
+
+ul {
+    margin: 0px;
+}
+
+main {
+    background-image: url(../img/prudence-earl-NwBx723XaHw-unsplash.jpg);
+    font-family: 'Roboto', sans-serif;
+    min-height: 350vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #83af9b;
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.🥑 {
+    color: #83af9b;
+    text-align: center;
+}
+
+.border { 
+    border: 2px solid white;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left:25%;
+    margin-bottom: 5%;
+    padding: 25px;
+}
+
+.main {
+    border: 2px solid white;
+    width: 50%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left:25%;
+    margin-bottom: 5%;
+    padding: 30px;
+    height: 50vh;
+}
+
+nav{
+    background-color: #83af9b;
+    color: #efefef;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    margin: 0 auto; 
+  }
+
+  li:hover {
+      color: black; 
+      font-size: larger;
+  }
+
+  h1 {
+      color: #83af9b;
+      text-align: center;
+  }
+
+  h2 {
+      color: white;
+  }
+  
+  h2:hover {
+    color: black; 
+    font-size: 35px;
+
+  }
+
+
+  h3 {
+      color: black;
+  }
+
+span {
+    color: black;
+}
+
+ section:first-child {
+    background-image: url(../img/sarah-shull-gtJvvmzWLCk-unsplash.jpg);
+    border: 1px solid silver;
+    margin: 25px 10%;
+    padding: 35px 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #83af9b;
+    font-weight: 900;
+    font-size: 25px;
+
+    border-radius: 5%;
+}
+
+ section:nth-of-type(2) {
+      background-image: url(../img/alex-loup-mwINQsW2KJs-unsplash.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: left;
+      background-color: grey 50%;
+      border: 1px solid whitesmoke;
+      border-radius: 5%;
+      margin: 25px 10%;
+      padding: 15px 15%;
+      color: #83af9b;
+      font-size: 25px;
+    
+  }
+
+ section:last-child {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: grey 50%;
+    background-position: right;
+      border: 1px solid silver;
+      margin: 25px 10%;
+      padding: 15px 15%;
+      color:#83af9b;
+      font-weight: 400;
+      background-image: url(../img/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg);
+      background-blend-mode: lighten;
+      border-radius: 5%;
+      font-size: 25px;
+  }
+
+  footer {
+      display: inline;
+      background-color: #83af9b;
+  }
